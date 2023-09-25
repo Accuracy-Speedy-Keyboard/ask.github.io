@@ -1,0 +1,504 @@
+/*ALL*/
+body {
+  background-color: #f6dfe2;
+}
+
+* {
+  margin: 0;
+  width: auto;
+}
+
+/*button*/
+
+.button {
+  background-color: pink;
+  border: none;
+  color: maroon;
+  text-align: center;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.button:hover {
+  background-color: #D6B4FC;
+}
+
+.previous {
+  margin-left: 1%;
+  float: left;
+  /* Change position*/
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.next {
+  margin-right: 1%;
+  float: left;
+  /*change position*/
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.back {
+  margin-right: 1%;
+  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/*Navigation Bar page2-6*/
+.navbar {
+  width: 100%;
+  background-color: rgb(249, 208, 215);
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: rgb(150, 25, 71);
+  text-decoration: none;
+  font-size: 20px;
+  width: 16.5%; /* Four links of equal widths */
+  text-align: center;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #dec9f6;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/*Page 1*/
+div.welcome {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 2%;
+}
+
+.welcome img {
+  border-radius: 30px;
+}
+
+div.indented {
+  text-indent: 40px;
+  line-height: 1.5;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+div.quotes {
+  line-height: 1.5;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+div.headerfirstpage {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.roleplay {
+  margin-left: 15%;
+  margin-bottom: 30px;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.content {
+  display: inline;
+  margin-top: 10px;
+}
+
+.introduction-icon img {
+  border-radius: 35px;
+  margin-left: 75px;
+  margin-bottom: 70px;
+  margin-right: 20px;
+  /* ori layout 
+  margin-left: 30%;
+  margin-right: 40%;
+  margin-bottom: 15%;
+  margin-top: 15%;*/
+}
+
+.time-log-icon img {
+  border-radius: 35px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+  margin-right: 20px;
+  /* ori layout 
+  margin-left: 55%;
+  margin-right: 30%;
+  margin-bottom: 15%;
+  margin-top: 15%;*/
+}
+
+.data-icon img {
+  border-radius: 35px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+  margin-right: 20px;
+ /* ori layout 
+ margin-left: 30%;
+  margin-right: 40%;
+  margin-bottom: 15%;
+  margin-top: 15%;*/
+}
+
+.graph-icon img {
+  border-radius: 35px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+  margin-right: 20px;
+  /* ori layout 
+  margin-left: 55%;
+  margin-right: 30%;
+  margin-bottom: 15%;
+  margin-top: 15%;*/
+}
+
+.aboutus-icon img {
+  border-radius: 35px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+  margin-right: 20px;
+  /* ori layout 
+  margin-left: 95%;
+  margin-right: 30%;
+  margin-bottom: 30%;*/
+}
+
+div.content:hover img {
+  border: 10px solid #c71284;
+  border-radius: 35px;
+}
+
+body.page1 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.samerow {
+  display: table;
+}
+
+/*Page 2*/
+div.box-page2 {
+  color: rgb(62, 24, 61);
+  border-radius: 10px ; 
+  border: 10px solid #55426e;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: x-large;
+  background-color: #e5daee;
+}
+h1.shadow {
+  text-shadow: 2px 2px 5px rgb(181, 59, 226);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.under-shadow {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  text-align: center;
+}
+
+h1.title-pg2 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: #ba4c7f;
+  margin-top:5px
+}
+
+td.qwe, th.qwe {
+  color: rgb(91, 82, 46);
+  background-color: #f1dcc5;
+  text-align: left;  
+}
+
+th.qwe img {
+  width: 100%;
+  height: auto;
+} 
+
+th.div img {
+  width: 100%;
+  height: auto;
+}
+
+div.table-pg2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin-bottom: 100px;
+}
+
+td.div, th.div {
+  color: rgb(131, 97, 146);
+  background-color: #DCD0EA; 
+  text-align: left; 
+}
+
+td.last {
+  color: #bd487f;
+  background-color: #f6d7e8;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+* p, li {
+  font-size: 24px;
+}
+
+/*Page 3*/
+div.pg3 {
+  margin-top: 30px;
+}
+
+div.activity-log {
+  border: 2px solid;
+  background-color: #ddc9ed;
+  color: #523b60;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+div.methodology {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 5px solid #603d68;
+  border-radius: 5px;
+  background-color: #f6d7e8;
+  color: #d25891;
+  margin-bottom: 10%;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h2.method-word {
+  text-align: center;
+  margin-top: 5px;
+}
+
+ol.methodology-content {
+  text-align: left justify;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: normal;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+th, td {
+  text-align: left;
+}
+.pg3 th {
+  color: rgb(124, 104, 127);
+}
+
+.pg3 td {
+  background-color: #f3faff;
+}
+
+.week {
+  width: 10%;
+}
+
+/*Page 4&5*/
+
+div.pp4 {
+  box-sizing: border-box;
+  position: center;
+  font-size: x-large;
+  line-height: 1.5;
+  margin-top: 30px;
+  text-align: justify center;
+}
+
+.bodypg4, .bodypg5 {
+  background-color: #e8dff5;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.tablepg4, th, td{
+  border: 2px solid;
+  border-collapse: collapse;
+  border-color: #5b4c6a;
+  text-align: center;
+  font-size: larger;
+}
+
+.head,.subhead {
+  font-weight: bold;
+  background-color: #D291BC ;
+  color: white;
+}
+
+.name {
+  background-color: #81679a;
+  color: white;
+}
+
+.tablepg4 {
+  width: 1200px;
+  height: 400px;
+  margin-left: 100px; 
+  padding: auto;
+  margin-bottom: 50px;
+}
+
+div.summarize {
+  margin-bottom: 100px;
+  text-align: left;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+.h1pg4, .report, .conclusion, .benefits {
+  color:#ffffff;
+  background-color:#81679a;
+  max-width: max-content;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.pp4,.pp5, .ulben, .pp6 {
+  color:#543c5c;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+.pp4 {
+  box-sizing: border-box;
+  position: center;
+  margin: 0px 20px;
+  font-size: x-large;
+  text-align: center;
+}
+
+.data {
+  background-color: #f0c6e6;
+  color:#543c5c;
+}
+
+caption {
+  color: #81679a;
+  font-size: larger;
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+.a4 {
+  color:#8e0176d7;
+}
+
+.a4:hover {
+  color:#e7c6d4;
+  background-color:rgb(115, 85, 123);
+  text-decoration: underline;
+}
+
+.graph {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid #897290;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pp5 {
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pp6 {
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: x-large;
+}
+
+/* Page 6*/
+.header-image {
+  max-width: 100%;
+  max-height: 75%;
+  margin-bottom: 0%;
+}
+
+* {
+  box-sizing: border-box;   
+}
+
+p {
+  padding-top: 45px;
+  font-size: x-large;
+  margin-left: 15px;
+  color:#543c5c;
+}
+
+img.profpic {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  float: left;
+  margin-right: 25px;
+  margin-top: 10px;
+  border: 5px solid rgb(173, 207, 253);
+  margin-left: 27%;
+  }
+
+img.down {
+  margin-top: 15%;
+}
+
+p.bottom {
+  padding-top: 140px;
+}
+
+div.column {
+  width: 50%;
+  float: left;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  height: 100%;
+  background-color: #e8dff5; 
+  background-image: linear-gradient(#e8dff5, #fce1e4, #FCF4DD);
+}
+
+#gradient {
+  height: 100%;
+  background-color: rgb(244, 212, 245); 
+  background-image: linear-gradient(rgb(244, 212, 245), #DAEAF6, #DDEDEA);
+
+}
+
+
